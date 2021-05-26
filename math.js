@@ -1,4 +1,4 @@
-var table = x;             // Unit of table
+var table = i;             // Unit of table
 var operator = 'multiplication'; // Type of calculation
 var i = 1;                 // Set counter to 1
 var msg = '';              // Message
