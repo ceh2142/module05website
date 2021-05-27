@@ -12,7 +12,7 @@ if (operator === 'addition') {
 } else {
   // Do multiplication
   while (i < 11) {
-    msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
+    i + ' x ' + table + ' = ' + (i * table) + '<br />';
     i++;
   }
 }
