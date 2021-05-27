@@ -1,7 +1,7 @@
 var table = 5;             // Unit of table
 var operator = 'multiplication'; // Type of calculation
 var i = 1;                 // Set counter to 1
-var msg = 'Multiplication Table' + '<br />';            // Message
+var msg = 'Multiplication Table' + '<br />' + '<br />';            // Message
 
 if (operator === 'addition') {
   // Do addition
