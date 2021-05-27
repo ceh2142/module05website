@@ -1,8 +1,9 @@
 var table = 5;             // Unit of table
 var operator = 'multiplication'; // Type of calculation
 var i = 1;                 // Set counter to 1
+var newLine = "\r\n"
 var msg = 'Multiplication Table';              // Message
-
+msg += newLine;
 if (operator === 'addition') {
   // Do addition
   while (i < 11) {
@@ -12,7 +13,7 @@ if (operator === 'addition') {
 } else {
   // Do multiplication
   while (i < 11) {
-    i + ' x ' + table + ' = ' + (i * table) + '<br />';
+  msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
     i++;
   }
 }
